@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\bin\Debug\net5.0\XCore.EmailService.deps.json
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\bin\Debug\net5.0\XCore.EmailService.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\bin\Debug\net5.0\ref\XCore.EmailService.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\bin\Debug\net5.0\XCore.EmailService.pdb
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\obj\Debug\net5.0\XCore.EmailService.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\obj\Debug\net5.0\XCore.EmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\obj\Debug\net5.0\XCore.EmailService.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\obj\Debug\net5.0\XCore.EmailService.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\obj\Debug\net5.0\XCore.EmailService.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\obj\Debug\net5.0\XCore.EmailService.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\obj\Debug\net5.0\ref\XCore.EmailService.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.EmailService\obj\Debug\net5.0\XCore.EmailService.pdb

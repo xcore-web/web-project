@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\bin\Debug\net5.0\XCore.LoggerService.deps.json
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\bin\Debug\net5.0\XCore.LoggerService.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\bin\Debug\net5.0\ref\XCore.LoggerService.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\bin\Debug\net5.0\XCore.LoggerService.pdb
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\bin\Debug\net5.0\XCore.Contracts.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\bin\Debug\net5.0\XCore.Entities.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\bin\Debug\net5.0\XCore.Contracts.pdb
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\bin\Debug\net5.0\XCore.Entities.pdb
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\XCore.LoggerService.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\XCore.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\XCore.LoggerService.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\XCore.LoggerService.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\XCore.LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\XCore.LoggerService.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\XCore.LoggerService.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\ref\XCore.LoggerService.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.LoggerService\obj\Debug\net5.0\XCore.LoggerService.pdb

@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\bin\Debug\net5.0\XCore.Repository.deps.json
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\bin\Debug\net5.0\XCore.Repository.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\bin\Debug\net5.0\ref\XCore.Repository.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\bin\Debug\net5.0\XCore.Repository.pdb
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\bin\Debug\net5.0\XCore.Contracts.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\bin\Debug\net5.0\XCore.Entities.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\bin\Debug\net5.0\XCore.Contracts.pdb
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\bin\Debug\net5.0\XCore.Entities.pdb
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\XCore.Repository.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\XCore.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\XCore.Repository.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\XCore.Repository.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\XCore.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\XCore.Repository.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\XCore.Repository.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\ref\XCore.Repository.dll
+C:\Users\Administrator\Desktop\Website\XCore\XCore.Repository\obj\Debug\net5.0\XCore.Repository.pdb

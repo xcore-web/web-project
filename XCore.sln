@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCore.Api", "XCore.Api\XCore.Api.csproj", "{1BAD15F5-2E4A-4BC9-A47A-EFA5AB73E18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCore.Entities", "XCore.Entities\XCore.Entities.csproj", "{F737D763-AE8F-48A0-AE63-A245EAE1520C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCore.Repository", "XCore.Repository\XCore.Repository.csproj", "{5A550083-9908-4B11-85B8-EFD0ED068F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCore.Contracts", "XCore.Contracts\XCore.Contracts.csproj", "{6590DA86-A600-4DEE-8FE6-1CB4D43A5DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCore.EmailService", "XCore.EmailService\XCore.EmailService.csproj", "{7EF647C3-CF9E-46F6-B3D4-DD9B4395167C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCore.LoggerService", "XCore.LoggerService\XCore.LoggerService.csproj", "{BCACA197-B404-4B12-AAD9-4AA106591A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BAD15F5-2E4A-4BC9-A47A-EFA5AB73E18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAD15F5-2E4A-4BC9-A47A-EFA5AB73E18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAD15F5-2E4A-4BC9-A47A-EFA5AB73E18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAD15F5-2E4A-4BC9-A47A-EFA5AB73E18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F737D763-AE8F-48A0-AE63-A245EAE1520C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F737D763-AE8F-48A0-AE63-A245EAE1520C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F737D763-AE8F-48A0-AE63-A245EAE1520C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F737D763-AE8F-48A0-AE63-A245EAE1520C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A550083-9908-4B11-85B8-EFD0ED068F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A550083-9908-4B11-85B8-EFD0ED068F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A550083-9908-4B11-85B8-EFD0ED068F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A550083-9908-4B11-85B8-EFD0ED068F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6590DA86-A600-4DEE-8FE6-1CB4D43A5DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6590DA86-A600-4DEE-8FE6-1CB4D43A5DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6590DA86-A600-4DEE-8FE6-1CB4D43A5DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6590DA86-A600-4DEE-8FE6-1CB4D43A5DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF647C3-CF9E-46F6-B3D4-DD9B4395167C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF647C3-CF9E-46F6-B3D4-DD9B4395167C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF647C3-CF9E-46F6-B3D4-DD9B4395167C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF647C3-CF9E-46F6-B3D4-DD9B4395167C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCACA197-B404-4B12-AAD9-4AA106591A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCACA197-B404-4B12-AAD9-4AA106591A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCACA197-B404-4B12-AAD9-4AA106591A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCACA197-B404-4B12-AAD9-4AA106591A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99BE099F-0AB8-48FD-92D9-CE755C99719A}
+	EndGlobalSection
+EndGlobal
