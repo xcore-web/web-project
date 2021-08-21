@@ -1,2 +1,2 @@
-# XCoreClient
+This is my angular project. 
 
