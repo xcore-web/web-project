@@ -1,0 +1,33 @@
+<div class="position-relative">
+    <div class="main-wrapper align-middle" fxLayout="row" fxLayoutAlign="center center">
+        <mat-card class="forgot-password-card">
+            <mat-card-header>
+                <mat-card-title>
+                    <h2 class="card-title">Email Confirmation</h2>
+                </mat-card-title>
+            </mat-card-header>
+
+
+            <mat-card-content class="email-confirmation-form">
+
+            <div *ngIf="showError" class="alert alert-danger" role="alert">
+                {{errorMessage}}
+            </div>
+            <div *ngIf="showSuccess" class="alert alert-success" role="alert">
+                Your email has been successfully confirmed. Please <a [routerLink]="['/authentication/login']"> click here to log in. </a>
+            </div>
+
+            <br>
+
+            <mat-card-actions>
+                <div class="button-flex-container">
+                    <button mdbBtn routerLink="../../home" class="btn-sm" gradient="intuitive-purple" style="color: white;"
+                        rounded="true" mdbWavesEffect>
+                        Return
+                    </button>
+                </div>
+            </mat-card-actions>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

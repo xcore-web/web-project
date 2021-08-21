@@ -1,0 +1,149 @@
+// ... Import Themes ...
+@import './themes/app-theme.scss';
+@import './themes/bupe-theme.scss';
+@import './themes/lunada-theme.scss';
+@import './themes/material-theme.scss';
+@import './themes/royal-blue-theme.scss';
+@import './themes/windy-theme.scss';
+@import './themes/love-and-liberty-theme.scss';
+@import './themes/purple-love-theme.scss';
+@import './themes/skyline-theme.scss';
+@import './themes/terminal-theme.scss';
+@import './themes/crystal-clear-theme.scss';
+@import './themes/deep-space-theme.scss';
+@import './themes/dracula-theme.scss';
+@import './themes/shadow-night-theme.scss';
+@import './themes/man-of-steel-theme.scss';
+@import './themes/summer-theme.scss';
+@import './themes/very-blue-theme.scss';
+@import './themes/pomegranate-theme.scss';
+@import './themes/witching-hour-theme.scss';
+@import './themes/ibiza-sunset-theme.scss';
+@import './themes/flickr-theme.scss';
+@import './themes/twitch-theme.scss';
+
+// Import Typography
+@import './typography.scss';
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+// Define themes here
+$themes-map: (
+  bupe-theme: (
+    primary-base: $mat-bupe-primary,
+    accent-base: $mat-bupe-accent,
+  ),
+
+  lunada-theme: (
+    primary-base: $mat-lunada-primary,
+    accent-base: $mat-lunada-accent,
+  ),
+
+  royal-blue-theme: (
+    primary-base: $mat-royal-blue-primary,
+    accent-base: $mat-royal-blue-accent,
+  ),
+
+  windy-theme: (
+    primary-base: $mat-windy-primary,
+    accent-base: $mat-windy-accent,
+  ),
+
+  love-and-liberty-theme: (
+    primary-base: $mat-love-and-liberty-primary,
+    accent-base: $mat-love-and-liberty-accent,
+  ),
+
+  purple-love-theme: (
+    primary-base: $mat-purple-love-primary,
+    accent-base: $mat-purple-love-accent,
+  ),
+
+  skyline-theme: (
+    primary-base: $mat-skyline-primary,
+    accent-base: $mat-skyline-accent,
+  ),
+
+  terminal-theme: (
+    primary-base: $mat-terminal-primary,
+    accent-base: $mat-custom-black,
+  ),
+
+  deep-space-theme: (
+    primary-base: $mat-deep-space-primary,
+    accent-base: $mat-custom-black,
+  ),
+
+  shadow-night-theme: (
+    primary-base: $mat-custom-black,
+    accent-base: $mat-shadow-night-accent,
+  ),
+
+  crystal-clear-theme: (
+    primary-base: $mat-crystal-clear-primary,
+    accent-base: $mat-crystal-clear-accent,
+  ),
+
+  dracula-theme: (
+    primary-base: $mat-dracula-primary,
+    accent-base: $mat-dracula-accent,
+  ),
+
+  man-of-steel-theme: (
+    primary-base: $mat-man-of-steel-primary,
+    accent-base: $mat-man-of-steel-accent,
+  ),
+
+  summer-theme: (
+    primary-base: $mat-summer-primary,
+    accent-base: $mat-summer-accent,
+  ),
+
+  very-blue-theme: (
+    primary-base: $mat-very-blue-primary,
+    accent-base: $mat-very-blue-accent,
+  ),
+
+  pomegranate-theme: (
+    primary-base: $mat-pomegranate-primary,
+    accent-base: $mat-pomegranate-accent,
+  ),
+
+  witching-hour-theme: (
+    primary-base: $mat-witching-hour-primary,
+    accent-base: $mat-witching-hour-accent,
+  ),
+
+  ibiza-sunset-theme: (
+    primary-base: $mat-ibiza-sunset-primary,
+    accent-base: $mat-ibiza-sunset-accent,
+  ),
+
+  flickr-theme: (
+    primary-base: $mat-flickr-primary,
+    accent-base: $mat-flickr-accent,
+  ),
+
+  twitch-theme: (
+    primary-base: $mat-twitch-primary,
+    accent-base: $mat-twitch-accent,
+  ),
+);
+
+
+@mixin themed-stylesheets($mat-theme) {
+  $primary: map-get($mat-theme, primary);
+  $accent: map-get($mat-theme, accent);
+
+  $primary-color: mat-color($primary);
+  $accent-color: mat-color($accent);
+
+  $is-dark: map-get($mat-theme, is-dark);
+
+  @include navbar-theme($mat-theme);
+}
+  
+@import '~angular-material-dynamic-themes/themes-core';
+@include make-stylesheets($themes-map);

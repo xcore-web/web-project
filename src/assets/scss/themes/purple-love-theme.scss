@@ -1,0 +1,76 @@
+@import '../themes/app-theme';
+
+// Theme Custom Colors
+$mat-purple-love-primary: (
+    50: #f9e6ec,
+    100: #f0bfcf,
+    200: #e695af,
+    300: #db6b8e,
+    400: #d44b76,
+    500: #cc2b5e,
+    600: #c72656,
+    700: #c0204c,
+    800: #b91a42,
+    900: #ad1031,
+    A100: #ffdde3,
+    A200: #ffaab9,
+    A400: #ff778f,
+    A700: #ff5d79,
+    contrast: (
+      50: $dark-primary-text,
+      100: $dark-primary-text,
+      200: $dark-primary-text,
+      300: $dark-primary-text,
+      400: $light-primary-text,
+      500: $light-primary-text,
+      600: $light-primary-text,
+      700: $light-primary-text,
+      800: $light-primary-text,
+      900: $light-primary-text,
+      A100: $dark-primary-text,
+      A200: $dark-primary-text,
+      A400: $light-primary-text,
+      A700: $light-primary-text,
+    )
+  );
+
+$mat-purple-love-accent: (
+    50:  #eee7f1,
+    100: #d6c4db,
+    200: #ba9dc4,
+    300: #9e75ac,
+    400: #8a589a,
+    500: #753a88,
+    600: #6d3480,
+    700: #622c75,
+    800: #58256b,
+    900: #451858,
+    A100: #dd95ff,
+    A200: #cc62ff,
+    A400: #bc2fff,
+    A700: #b415ff,
+    contrast: (
+      50: $dark-primary-text,
+      100: $dark-primary-text,
+      200: $dark-primary-text,
+      300: $dark-primary-text,
+      400: $light-primary-text,
+      500: $light-primary-text,
+      600: $light-primary-text,
+      700: $light-primary-text,
+      800: $light-primary-text,
+      900: $light-primary-text,
+      A100: $dark-primary-text,
+      A200: $dark-primary-text,
+      A400: $light-primary-text,
+      A700: $light-primary-text,
+    )
+  );
+
+$primary: mat-palette($mat-purple-love-primary);
+$accent: mat-palette($mat-purple-love-accent);
+$theme: mat-light-theme($primary, $accent);
+
+
+//@include angular-material-theme($theme);
+@include material-custom-theme($theme);

@@ -1,0 +1,84 @@
+.customizer {
+  width: 300px;
+  right: -300px;
+  padding: 0;
+  z-index: 1051;
+  position: fixed;
+  top: 150px;
+  bottom: 0;
+  height: 45vh;
+  transition: right 0.4s cubic-bezier(0.05, 0.74, 0.2, 0.99);
+  backface-visibility: hidden;
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+  &.open {
+    right: 0;
+  }
+  
+  a.customizer-toggle {
+    background: #fff;
+    color: theme-color('dark');
+    display: block;
+    box-shadow: -3px 0px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  
+  .customizer-toggle {
+    position: absolute;
+    top: 50%;
+    width: 54px;
+    height: 50px;
+    left: -54px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+  }
+  
+  
+  @mixin size($width, $height: null) {
+    width: $width;
+    height: if($height==null, $width, $height);
+  }
+  
+  .theme-selectors-container {
+    width: 190px;
+    margin: 0 8px;
+  }
+  
+  button.theme-selector {
+    @include size(80px);
+  }
+  
+  div.theme-primary {
+    @include size(70px);
+    border-radius: 50%;
+  }
+  
+  div.theme-accent {
+    @include size(25px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  div.theme-warn {
+    @include size(15px);
+    position: absolute;
+    bottom: 7%;
+    left: 20%;
+    transform: rotate(45deg);
+  }
+  
+  .theme-check {
+    color: white;
+    font-size: 3.2em;
+  }
+
+  .btn-group {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}

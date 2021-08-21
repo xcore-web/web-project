@@ -1,0 +1,12 @@
+<section class="container mb-3">
+    <mat-card class="comments-card">
+        <div class="row mt-4 mb-5" fxLayout fxLayoutAlign="center">
+            <h4>Comments</h4>
+        </div>
+    
+        <app-comment-box 
+            [messageItems]="messageItems$ | async"
+            (messageSaved)="saveMessage($event)"
+            (messageDeleted)="deleteMessage($event)"></app-comment-box>
+    </mat-card>
+</section>

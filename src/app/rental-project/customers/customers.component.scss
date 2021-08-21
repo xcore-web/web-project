@@ -1,0 +1,33 @@
+table {
+    width: 1080px;
+}
+
+.mat-column-lastName {
+    width: 20% !important;
+}
+
+.mat-column-firstName {
+    width: 20% !important;
+}
+
+.mat-column-address {
+    width: 40% !important;
+}
+
+.mat-column-update {
+    width: 10% !important;
+    text-align: center !important;
+}
+
+.mat-column-delete {
+    width: 10% !important;
+    text-align: center !important;
+}
+
+th.mat-header-update {
+  text-align: center !important;
+}
+
+th.mat-header-delete {
+  text-align: center !important;
+}

@@ -1,0 +1,86 @@
+<div class="row mt-4 mb-5" fxLayout fxLayoutAlign="center">
+    <h4 class="justify-content-center">Database Diagram</h4>
+</div>
+
+<div fxLayout="row">
+    <div fxLayout="row" fxLayoutAlign="center" fxFlex="100%">
+        <mat-card>             
+            <img mat-card-image src="../../../assets/img/Comp214_Database.PNG" alt="" class="mt-2 mb-2">
+        </mat-card>
+    </div>
+</div>
+
+<br><br>
+
+<mat-tab-group>
+    <mat-tab label="dbo.Categories">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card class="card-margins">
+                    <mat-card-title class="row" fxLayout fxLayoutAlign="center">Catergories Table</mat-card-title>
+                    <div class="my-4 mb-2">
+                        <img src="../../../assets/img/Comp214_Categories.PNG" class="my-3 py-5">
+                    </div>
+
+                    <p class="mb-2">T-SQL</p>
+                    <pre>{{categoriesTable}}</pre>
+                </mat-card>
+            </div>
+        </div>
+    </mat-tab>
+
+    <mat-tab label="dbo.Customers">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card class="card-margins">
+                    <mat-card-title class="row" fxLayout fxLayoutAlign="center">Customers Table</mat-card-title>
+                    <div class="my-4 mb-2">
+                        <img src="../../../assets/img/Comp214_Customers.PNG" class="my-3 py-5">                                                
+                    </div>
+
+                    <p class="mb-2">T-SQL</p>
+                    <pre>{{customersTable}}</pre>
+                </mat-card>
+            </div>
+        </div>   
+    </mat-tab>
+
+    <mat-tab label="dbo.Medias">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card>
+                    <mat-card-title class="row" fxLayout fxLayoutAlign="center">Medias Table</mat-card-title>       
+                    <div class="ml-4">      
+                        <img src="../../../assets/img/Comp214_Medias.PNG" class="my-3 py-5">                        
+                    </div>
+
+                    <p class="ml-4 mb-2">T-SQL</p>
+                    <pre>{{mediasTable}}</pre>
+                </mat-card>
+            </div>
+        </div>   
+    </mat-tab>
+
+    <mat-tab label="dbo.Rentals">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card>
+                    <mat-card-title class="row" fxLayout fxLayoutAlign="center">Rentals Table</mat-card-title>
+                    <div class="ml-4">   
+                        <img src="../../../assets/img/Comp214_Rentals.PNG" class="my-3 py-5">  
+                    </div>                         
+
+                    <p class="ml-4 mb-2">T-SQL</p>
+                    <pre>{{rentalsTable}}</pre>
+                </mat-card>
+            </div>
+        </div>   
+    </mat-tab>
+</mat-tab-group>
+
+
+

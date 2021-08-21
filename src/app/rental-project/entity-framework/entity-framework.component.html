@@ -1,0 +1,72 @@
+<div class="row mt-4 mb-5" fxLayout fxLayoutAlign="center">
+    <h4 class="justify-content-center">Entity Framework Code First</h4>
+</div>
+
+<div fxLayout="row">
+    <div fxLayout="row" fxFlex="100%" fxFlex.gt-sm="100%" class="mt-3 mb-5">
+        <mat-card class="col-md-12">
+            <div class="my-4">
+                <p>The database was created using entity framework (Asp.Net Core) code first.</p>
+            </div>
+        </mat-card>
+    </div>
+</div>
+
+<br><br>
+
+<mat-tab-group>
+    <mat-tab label="Category">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card class="card-margins">
+                    <pre>{{categoryModel}}</pre>
+                </mat-card>
+            </div>
+        </div>
+    </mat-tab>
+
+    <mat-tab label="Customer">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card class="card-margins">
+                    <pre>{{customerModel}}</pre>
+                </mat-card>
+            </div>
+        </div>   
+    </mat-tab>
+
+    <mat-tab label="Media">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card>
+                    <pre>{{mediaModel}}</pre>
+                </mat-card>
+            </div>
+        </div>   
+    </mat-tab>
+
+    <mat-tab label="Rental">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card>
+                    <pre>{{rentalModel}}</pre>
+                </mat-card>
+            </div>
+        </div>   
+    </mat-tab>
+
+    <mat-tab label="DbContext">
+        <br><br>
+        <div fxFlexFill>
+            <div fxLayout fxLayoutAlign="center" fxFlex="100%" class="mt-2 mb-2">
+                <mat-card>
+                    <pre>{{dbContext}}</pre>
+                </mat-card>
+            </div>
+        </div>   
+    </mat-tab>
+</mat-tab-group>

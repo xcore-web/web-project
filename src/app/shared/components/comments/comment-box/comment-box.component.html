@@ -1,0 +1,49 @@
+<mat-card class="comments-card">
+    <form [formGroup]="form" (ngSubmit)="saveMessage()">
+        <mat-card-content class="comments-form">
+            <div class="form-group mx-sm-6">
+                <input type="hidden" formControlName="id" />
+
+                <mat-form-field class="col-md-12">
+                    <mat-label>Your Name</mat-label>
+                    <input class="full-width" matInput formControlName="userName" required />
+                    <mat-icon matSuffix> person_outline</mat-icon>
+                </mat-form-field>  
+
+                <mat-form-field class="col-md-12">
+                    <mat-label>Enter Your Message Here</mat-label>
+                    <textarea class="full-width" matInput formControlName="messageName" required></textarea>
+                    <mat-icon matSuffix> mail_outline</mat-icon>
+                </mat-form-field>
+
+                <button type="submit" class="btn-style-md green">
+                    Send
+                </button>
+            </div>
+        </mat-card-content>
+    </form>
+
+    <div class="container mt-2" *ngFor="let item of messageItems">
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>{{item.userName}}</mat-panel-title>
+                <mat-panel-description class="justify-content-end">{{item.created | date}}</mat-panel-description>              
+            </mat-expansion-panel-header>
+
+
+            <div fxLayout="row" fxLayoutAlign="space-around center">
+                <p class="col-md-6">
+                    {{item.messageName}}
+                </p>
+
+
+                <div class="col-md-3"></div>
+
+                <div class="container">
+                    <button class="btn-style-sm orange">Edit</button>                     
+                    <button class="btn-style-sm red" (click)="deleteMessageItem(item)">Delete</button>
+                </div>
+            </div>           
+        </mat-expansion-panel>
+    </div>
+</mat-card>

@@ -1,0 +1,44 @@
+@import '../themes/app-theme';
+
+// Theme Custom Colors
+$mat-shadow-night-accent: (
+  50: #eae7ed,
+  100: #cbc2d3,
+  200: #a99ab6,
+  300: #877199,
+  400: #6d5283,
+  500: #53346d,
+  600: #4c2f65,
+  700: #42275a,
+  800: #392150,
+  900: #29153e,
+  A100: #ba7cff,
+  A200: #9f49ff,
+  A400: #8416ff,
+  A700: #7700fc,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $light-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  )
+);
+
+
+$primary: mat-palette($mat-custom-black);
+$accent: mat-palette($mat-shadow-night-accent);
+$theme: mat-light-theme($primary, $accent);
+
+
+//@include angular-material-theme($theme);
+@include material-custom-theme($theme);

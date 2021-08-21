@@ -1,0 +1,36 @@
+<div #customizer class="customizer border-left-blue-grey border-left-lighten-4 d-none d-sm-none d-md-block"
+    [ngClass]="{open: isOpen}">
+    <a class="customizer-toggle bg-primary" id="customizer-toggle-icon" (click)="toggleCustomizer()">
+        <mdb-icon fas icon="cog fa-spin" size="2x" style="margin-top: 10px;"></mdb-icon>
+    </a>
+
+    <mat-card>
+        <div class="customizer-content p-3 ps-container text-left">
+            <h2 class="text-uppercase mb-0 text-bold-400">Theme Customizer</h2>
+
+            <p>Customize &amp; Preview in Real Time</p>
+            <hr>
+
+            <!-- Layout Options-->
+            <div class="container">
+                <div class="switch mdb-color-switch">
+                    <label>
+                        Light
+                        <mat-slide-toggle [checked]="isDarkTheme | async" (change)="toggleDarkTheme($event.checked)">
+                        </mat-slide-toggle>
+                        Dark
+                    </label>
+                </div>
+            </div>
+            <hr />
+
+            <h3 class="text-center mb-3 text-uppercase">Navbar Color</h3>
+            <div class="row p-1">
+                <div class="btn-group" *ngFor="let theme of themeService.themes$ | async">
+                    <button mdbBtn gradient="{{theme.display}}" (click)="themeService.setTheme(theme)"
+                        mdbWavesEffect></button>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+</div>
