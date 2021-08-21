@@ -12,6 +12,7 @@ launchSettings.json
 nlog.config
 internallog.txt
 2021-08-18_logfile.txt
+x-core-client
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
